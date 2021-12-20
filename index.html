@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="info">
+        <div class="half-width">
+          <div class="img">
+            <img src="images/mac.png" alt="">
+          </div>
+        </div>
+        <div class="half-width">
+          <section class="heading">
+            <h3>Customize your Blue 24-inch iMac with Apple M1 chip.</h3>
+            <p>Aplle M1 chip with 8-core GPU and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thuderbolt/USB 4 ports Magic Mouse Magic Keyboard-US English</p>
+          </section>
+
+          <!-- configuration -->
+
+          <section class="">
+            <h5>Memory</h5>
+            <button id="memory-small">8GB unified Memory</button>
+            <button id="memory-big">16GB unified Memory</button>
+          </section>
+          <section class="">
+            <h5>Storage</h5>
+            <button id="storage-small">256GB SSD storage</button>
+            <button id="storage-medium">512GB SSD storage</button>
+            <button id="storage-big">1TB SSD storage</button>
+          </section>
+          <section class="">
+            <h5>Choose your delivary option</h5>
+            <button id="delivary-free">Friday, Aug 25 FREE prime delivary</button>
+            <button id="delivary-paid">Friday, Aug 21 delivary Charge $20</button>
+          </section>
+          <section>
+
+            <!-- pricing start -->
+
+            <div class="price">
+              <div class="second-half">
+                <h6>Best Price</h6>
+              </div>
+              <div class="second-half">
+                <h6>$<span>1299</span></h6>
+              </div>
+            </div>
+
+            <!-- memory section -->
+
+            <div class="memory-cost">
+              <div class="second-half">
+                <h6>Extra Memory Cost</h6>
+              </div>
+              <div class="second-half">
+                <h6>$<span id="memory-cost">0</span></h6>
+              </div>
+            </div>
+
+            <!-- storage section -->
+
+            <div class="storage-cost">
+              <div class="second-half">
+                <h6>Extra Storage Cost</h6>
+              </div>
+              <div class="second-half">
+                <h6>$<span id="storage-cost">0</span></h6>
+              </div>
+            </div>
+
+            <!-- delivary section -->
+
+            <div class="delivary-charge">
+              <div class="second-half">
+                <h6>Delivary Charge</h6>
+              </div>
+              <div class="second-half">
+                <h6>$<span id="delivary-cost">0</span></h6>
+              </div>
+            </div>
+            <!-- hr -->
+            <hr>
+            <!-- total price section -->
+
+            <div class="total-price">
+              <div class="second-half">
+                <h6>Total Price</h6>
+              </div>
+              <div class="second-half">
+                <h6>$<span id="total-price">1299</span></h6>
+              </div>
+            </div>
+          </section>
+
+          <!-- discount cupon section -->
+          
+          <section>
+            <form action="">
+              <input type="text" name="" id="promo" placeholder="Add Promo Code">
+              <button class="apply" id="apply">Apply</button>
+            </form>
+          </section>
+        </div>
+    </div>
+    <div class="grand-price">
+      <h3>Total: $<span id="grand-price">1299</span></h3>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
